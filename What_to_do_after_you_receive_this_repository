@@ -1,0 +1,27 @@
+1. Clone the Repository:
+
+- Open a terminal or command prompt.
+- Navigate to the directory where you want to clone the repository(this is where you'll be working locally) using `cd path`
+- Run the following command:
+`git clone https://github.com/LiquidSilver1011/EduProject`
+
+This will clone the repository into your current directory (.) and include all the files and history.
+
+2. Check for Remote:
+
+Confirm that the remote repository has been added. Run:
+`git remote -v`
+This should show the URL of the repository.
+
+3. Install dependencies:
+Run `npm install`
+
+4. You can now start working on the project. Anytime you made a change and want to push it onto the github repository, push like so:
+
+`git add .`
+`git rm -r --cached node_modules`
+`git commit -m "Your Commit message"`
+`git push origin main`
+
+5. Anytime you want to pull changes that others made and aren't updated on your local repository, run:
+`git pull origin main`
