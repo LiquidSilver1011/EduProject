@@ -1,23 +1,33 @@
-
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-nav {
-    background-color: #333;
-    display: flex;
-    justify-content: space-around;
-    text-align: right;
-    padding: 10px;
-}
-ul {
-    text-align: left;
-}
-a {
+    padding: 0;
+  }
+
+  .sidebar {
+    background-color: #09090B;
+    width: 70px;
+    height: 100%;
+    position: fixed; /* keeps the sidebar at the left */
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: #fff;
+  }
+
+  .sidebar a {
     text-decoration: none;
-    color: white;
-}
-h1 {
-    color: #333;
-}
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .sidebar a:hover {
+    color: #ddd;
+  }
+
+  .main-content {
+    padding: 20px;
+    margin-left: 120px; /* updated margin to create space for the sidebar */
+  }
+  
