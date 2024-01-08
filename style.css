@@ -5,8 +5,8 @@ body {
   }
 
   .sidebar {
-    background-color: #333;
-    width: 80px;
+    background-color: #09090B;
+    width: 70px;
     height: 100%;
     position: fixed; /* keeps the sidebar at the left */
     top: 0;
@@ -28,5 +28,5 @@ body {
 
   .main-content {
     padding: 20px;
-    margin-left: 130px; /* updated margin to create space for the sidebar */
+    margin-left: 120px; /* updated margin to create space for the sidebar */
   }
