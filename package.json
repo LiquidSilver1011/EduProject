@@ -2,10 +2,11 @@
   "name": "eduproject",
   "version": "1.0.0",
   "description": "Education Platform",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "dev:watch":"npx electronmon --trace-warnings ."
   },
   "keywords": [],
   "author": "",
