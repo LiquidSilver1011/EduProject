@@ -6,7 +6,7 @@ const path = require("path");
 
 let mainWindow;
 
-app.on('ready', () => {
+app.on('ready', () => {;
     mainWindow = new BrowserWindow({ 
         width: 800, 
         height: 600,
