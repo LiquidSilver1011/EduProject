@@ -1,5 +1,13 @@
 import React from "react";
 
 export const Work:React.FC = () => {
-    return <div>This is work page content</div>
+    const electron = (window as any).electron;
+
+    return (
+    <div>
+        This is work page content <br/>
+        The home director is @ {electron.homeDir()}
+
+        
+        </div>)
 }

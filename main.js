@@ -12,9 +12,9 @@ function createMainWindeow(){
         webPreferences:{
             contextIsolation:true,
             nodeIntegration:true,
-            preload:path.join(__dirname, "./prelaod.js")
+            preload:path.join(__dirname, "./preload.js")
         }
-            
+             
     });
     mainWindow.webContents.openDevTools();
     const starturl = url.format({
