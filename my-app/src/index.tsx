@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {BrowserRouter, Routes,Route} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
+import { Layout } from './components/Layout';
+import { Work } from './pages/Work';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -11,7 +13,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route></Route>
+        <Route path = '/' element = {<Layout />}>
+          <Route path="/work" element = {<Work />}/>
+        </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

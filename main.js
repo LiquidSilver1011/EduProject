@@ -2,12 +2,19 @@
 const { app, BrowserWindow } = require('electron');
 const url = require("url");
 const path = require("path");
+const { contextIsolated } = require('process');
 
 function createMainWindeow(){ 
     const mainWindow = new BrowserWindow({
         width: 800,
         height: 600,
         title: "test", 
+        webPreferences:{
+            contextIsolation:true,
+            nodeIntegration:true,
+            preload:path.join(__dirname, "./prelaod.js")
+        }
+            
     });
     mainWindow.webContents.openDevTools();
     const starturl = url.format({
