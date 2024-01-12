@@ -7,6 +7,7 @@ import { Layout } from './components/Layout';
 import { Work } from './pages/Work';
 import { Home } from './pages/home';
 import { Explore } from './pages/Explore';
+import './index.css'
 
 
 const root = ReactDOM.createRoot(
