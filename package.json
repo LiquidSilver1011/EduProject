@@ -6,12 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "dev:watch":"npx electronmon --trace-warnings ."
+    "dev:watch": "npx electronmon --trace-warnings ."
   },
   "keywords": [],
   "author": "us",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^28.1.1"
+    "electron": "^28.1.1",
+    "tailwindcss": "^3.4.1"
   }
 }

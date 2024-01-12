@@ -6,7 +6,7 @@ export const Layout: React.FC = () => {
       <p>This is our layout</p>
       <ul>
         <li><a href ="/work" >Work</a></li>
-        <li><a href ="/layout" >Home</a></li>
+        <li><a href ="/home" >Home</a></li>
         </ul>  
       <Outlet />
     </div>
