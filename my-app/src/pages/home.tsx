@@ -1,20 +1,17 @@
 import React from "react";
-import '/Users/lokendraagrawal/Downloads/Edu_Project/EduProject/my-app/src/style.css';
-import '/Users/lokendraagrawal/Downloads/Edu_Project/EduProject/my-app/src/App.css';
+import '/Users/lokendraagrawal/Downloads/Edu_Project/EduProject/my-app/src/pages/style.css';
+import '/Users/lokendraagrawal/Downloads/Edu_Project/EduProject/my-app/src/index.css';
+import { Outlet } from "react-router-dom";
 
 
 export const Home:React.FC = () => {
 
-    return (    
-        
-    <div>  
-
-
-
+    return <div>  
+        <link href="style.css" rel="stylesheet" />
         
     <div className="sidebar">
-        <a href="/home">Home</a>
-        <a href="/explore">Explore</a>
+        <a href="/" className="link">Home</a>
+        <a href="/explore" className="link">Explore</a>
      </div>
     
      <div className="main-content">
@@ -26,5 +23,6 @@ export const Home:React.FC = () => {
             <li>Music Fundamentals</li>
         </ul>
      </div>
-     </div>)
-}
+     <Outlet/>
+      </div>
+};

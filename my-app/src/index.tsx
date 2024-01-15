@@ -8,6 +8,7 @@ import { Work } from './pages/Work';
 import { Home } from './pages/home';
 import { Explore } from './pages/Explore';
 import './index.css'
+import './pages/style.css'
 
 
 const root = ReactDOM.createRoot(
@@ -17,10 +18,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path = '/' element = {<Layout/>}>
-          <Route path="/work" element = {<Work/>}></Route>
+        <Route path = '/' element = {<Home/>}>
         </Route>
-        <Route path = "/home" element = {<Home/>}></Route>
         <Route path = "/explore" element = {<Explore/>}></Route>
       </Routes>
     </BrowserRouter>

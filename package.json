@@ -16,7 +16,7 @@
     "tailwindcss": "^3.4.1"
   },
   "dependencies": {
-    "daisyui": "^4.6.0"
+    "daisyui": "^4.6.0",
+    "react-scripts": "^5.0.1"
   }
-  
 }

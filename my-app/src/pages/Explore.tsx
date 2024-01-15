@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom"
 
 export const Explore:React.FC = () => {
 
@@ -6,8 +7,8 @@ export const Explore:React.FC = () => {
         
     <div>    
     <div className="sidebar">
-        <a href="/home">Home</a>
-        <a href="/explore">Explore</a>
+        <a className="link" href="/">Home</a>
+        <a className="link" href="/explore">Explore</a>
     </div>
     
      <div className="main-content">
