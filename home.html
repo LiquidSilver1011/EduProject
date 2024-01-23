@@ -1,41 +1,108 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
     <title>Your Electron App</title>
-    <style></style>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: row; /* Horizontal alignment */
+            align-items: flex-end; /* Align at the bottom */
+        }
+
+        .card {
+            width: 40%;
+            max-width: 200px;
+            margin-right: 20px; /* Add space between cards */
+            margin-bottom: 20px;
+        }
+        #sidebar {
+  width: 110px;
+  height: 1024px;
+  background-color: #333333;
+  padding: 10px;
+}
+
+.box {
+  width: 90px;
+  height: 90px;
+  background-color: #18191a;
+  color: white;
+  margin-bottom: 10px; /* Spacing between boxes */
+  padding: 5px;
+  text-align: center; /* Center the text and logo */
+}
+
+.box i {
+  width: 100%; /* Adjust as needed */
+  margin-bottom: 0px; /* Space between logo and text */
+}
+
+
+    </style>
 
     <link rel="stylesheet" href="output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="edu.css">
 </head>
 <body>
-    <!--SideBar-->
-  <div class = "bg-black">
-    <ul class="menu bg-black-300 w-56 rounded-box">
-        <li>
-          <a href= './home.html ' class="text-white">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
-          Home
-          </a>
-        </li>
-        <li>
-          <a href = "./explore.html" class="text-white">
-            <svg class="h-5 w-5 text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="10" cy="10" r="7" />  <line x1="21" y1="21" x2="15" y2="15" /></svg>
-            Explore
-          </a>
-        </li>
-        <li>
-          <a class="text-white">
-            <svg class="h-5 w-5 text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />  <line x1="13" y1="8" x2="15" y2="8" />  <line x1="13" y1="12" x2="15" y2="12" /></svg>
-            Item 3
-          </a>
-        </li>
-      </ul>
+  <!--Side Bar-->
+  <section>
+    <div id="sidebar">
+    <a href = "home.html">
+      <button class="box">
+        <i class="bx bxs-home"></i>
+        <p>Home</p>
+      </button>
+    </a>
+    <a href = "explore.html">
+      <button class="box">
+        <i class="bx bx-search"></i>
+        <p>Explore</p>
+      </button>
+      <button class="box">
+    </a>
+        <i class="bx bxs-book"></i>
+        <p>Resources</p>
+      </button>
     </div>
-      <!--SideBar-->
-      <a href ="Courses/Digital Literacy/main.html">Digital Literacy Main</a>
+  </section>
+  <!--Side Bar-->
 
 
+
+  <!-- First card -->
+  <div class="card w-96 bg-base-100 shadow-xl">
+    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">DIGITAL LITERACY</h2>
+      <p>Digital literacy is very important today!</p>
+    </div>
+  </div>
+
+  <!-- Second card -->
+  <div class="card w-96 bg-base-100 shadow-xl">
+    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">DIGITAL LITERACY</h2>
+      <p>Digital literacy is very important today!</p>
+    </div>
+  </div>
+
+  <!-- Third card -->
+  <div class="card w-96 bg-base-100 shadow-xl">
+    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">DIGITAL LITERACY</h2>
+      <p>Digital literacy is very important today!</p>
+    </div>
+  </div>
+
+  <a href= "Courses/Sanitation/main.html">asdfasdfdsa</a>
 </body>
 </html>

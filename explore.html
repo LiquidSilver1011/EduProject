@@ -7,35 +7,86 @@
     <title>Your Electron App</title>
 
     <link rel="stylesheet" href="output.css">
+    <link rel = "stylesheet" href="edu.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+      #sidebar {
+  width: 110px;
+  height: 1024px;
+  background-color: #333333;
+  padding: 10px;
+}
+
+.box {
+  width: 90px;
+  height: 90px;
+  background-color: #18191a;
+  color: white;
+  margin-bottom: 10px; /* Spacing between boxes */
+  padding: 5px;
+  text-align: center; /* Center the text and logo */
+}
+
+.box i {
+  width: 100%; /* Adjust as needed */
+  margin-bottom: 0px; /* Space between logo and text */
+}
+    </style>
 </head>
 <body>
   <!--Side Bar-->
-  <div class = "bg-red ">
-    <ul class="menu bg-black-200 w-56 rounded-box">
-        <li>
-          <a href= './home.html ' class="text-white">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
-          Home
-          </a>
-        </li>
-        <li>
-          <a href = "./explore.html" class="text-white">
-            <svg class="h-5 w-5 text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="10" cy="10" r="7" />  <line x1="21" y1="21" x2="15" y2="15" /></svg>
-            Explore
-          </a>
-        </li>
-        <li>
-          <a class="text-white">
-            <svg class="h-5 w-5 text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />  <line x1="13" y1="8" x2="15" y2="8" />  <line x1="13" y1="12" x2="15" y2="12" /></svg>
-            Item 3
-          </a>
-        </li>
-      </ul>
+  <section>
+    <div id="sidebar">
+    <a href = "home.html">
+      <button class="box">
+        <i class="bx bxs-home"></i>
+        <p>Home</p>
+      </button>
+    </a>
+    <a href = "explore.html">
+      <button class="box">
+        <i class="bx bx-search"></i>
+        <p>Explore</p>
+      </button>
+      <button class="box">
+    </a>
+        <i class="bx bxs-book"></i>
+        <p>Resources</p>
+      </button>
     </div>
-        <h1>Explore</h1>
-        <p>Here you can explore and find information.</p>
-     </div>
-     <!--Side Bar-->
+  </section>
+  <!--Side Bar-->
+  <p>Expolreoradfasdfasdhfghasdjfhdsagkj</p>
      
+  <div class="navbar bg-base-100">
+    <a class="btn-ghost text-xl">daisyUI</a>
+  </div>
+<div class="collapse bg-base-200">
+    <input type="radio" name="my-accordion-1" checked="checked" /> 
+    <div class="collapse-title text-xl font-medium">
+      Course Part 1
+    </div>
+    <div class="collapse-content"> 
+      <p>Content Link</p>
+    </div>
+  </div>
+  <div class="collapse bg-base-200">
+    <input type="radio" name="my-accordion-1" /> 
+    <div class="collapse-title text-xl font-medium">
+      Click to open this one and close others
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+  <div class="collapse bg-base-200">
+    <input type="radio" name="my-accordion-1" /> 
+    <div class="collapse-title text-xl font-medium">
+      Click to open this one and close others
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
 </body>
 </html>

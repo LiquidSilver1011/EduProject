@@ -1,0 +1,21 @@
+#sidebar {
+    width: 125px;
+    height: 1024px;
+    background-color: #333333;
+    padding: 10px;
+  }
+  
+  .box {
+    width: 104px;
+    height: 93px;
+    background-color: #18191a;
+    color: white;
+    margin-bottom: 10px; /* Spacing between boxes */
+    padding: 5px;
+    text-align: center; /* Center the text and logo */
+  }
+  
+  .box i {
+    width: 100%; /* Adjust as needed */
+    margin-bottom: 0px; /* Space between logo and text */
+  }
