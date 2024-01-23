@@ -10,27 +10,32 @@
     <link rel="stylesheet" href="edu.css">
 </head>
 <body class = "bg-base-10">
+
   <!--Side Bar-->
-  <section>
-    <div id="sidebar">
-    <a href = "home.html">
-      <button class="box">
-        <i class="bx bxs-home"></i>
-        <p>Home</p>
-      </button>
-    </a>
-    <a href = "explore.html">
-      <button class="box">
-        <i class="bx bx-search"></i>
-        <p>Explore</p>
-      </button>
-      <button class="box">
-    </a>
-        <i class="bx bxs-book"></i>
-        <p>Resources</p>
-      </button>
+  <div class="drawer lg:drawer-open">
+    <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+    <div class="drawer-content flex flex-col items-center justify-center">
+      <!-- Page content here -->
+
+
+
+
+
+      
+      <!-- Page content here -->
+      <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden">Open drawer</label>
+    
+    </div> 
+    <div class="drawer-side bg-black">
+      <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label> 
+      <ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+        <!-- Sidebar content here -->
+        <li><a>Sidebar Item 1</a></li>
+        <li><a>Sidebar Item 2</a></li>
+      </ul>
+    
     </div>
-  </section>
+  </div>
   <!--Side Bar-->
 
 
