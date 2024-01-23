@@ -1912,6 +1912,10 @@ details.collapse summary::-webkit-details-marker {
   width: 2.5rem;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .flex-col {
   flex-direction: column;
 }
