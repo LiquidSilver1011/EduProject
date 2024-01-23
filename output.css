@@ -1884,6 +1884,10 @@ details.collapse summary::-webkit-details-marker {
   width: 24rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1894,6 +1898,10 @@ details.collapse summary::-webkit-details-marker {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .bg-base-100 {
@@ -1927,6 +1935,11 @@ details.collapse summary::-webkit-details-marker {
 .text-base-content {
   --tw-text-opacity: 1;
   color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity)));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
