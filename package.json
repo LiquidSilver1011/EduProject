@@ -19,6 +19,6 @@
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
     "daisyui": "^4.6.0",
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^5.0.1"
   }
 }
