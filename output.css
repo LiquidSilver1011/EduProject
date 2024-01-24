@@ -1625,6 +1625,42 @@ html {
   bottom: 100%;
 }
 
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.top-96 {
+  top: 24rem;
+}
+
+.top-3\/4 {
+  top: 75%;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.top-1\/4 {
+  top: 25%;
+}
+
 .m-20 {
   margin: 5rem;
 }
@@ -1712,6 +1748,14 @@ html {
 
 .h-96 {
   height: 24rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.max-h-full {
+  max-height: 100%;
 }
 
 .min-h-full {
