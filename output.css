@@ -1686,6 +1686,10 @@ html {
   margin-top: 0px;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .box-content {
   box-sizing: content-box;
 }
