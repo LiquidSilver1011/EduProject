@@ -14,30 +14,53 @@
   <!--Side Bar-->
   <div class="drawer lg:drawer-open">
     <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
-    <div class="drawer-content flex items-center justify-around">
+    <div class="drawer-content flex flex-col center justify-around mx-20">
       <!-- Page content here -->
+      <h1 class = "text text-4xl my-30">Hi user!</h1>
       
-      <!-- First card/Digital Literacy -->
-      <a href ="Courses/Digital Literacy/main.html"  class=" w-96">
-        <div class="card w-96 bg-base-100 shadow-xl">
-          <figure><img src="images/digital.png"/></figure>
-          <div class="card-body">
-            <h2 class="card-title">DIGITAL LITERACY</h2>
-            <p>Digital literacy</p>
-          </div>
-        </div>
-      </a>
 
-      <!-- Second card/Sanitation and Hygeine -->
-      <a href = 'Courses/Sanitation/main.html' class=" w-96">
-        <div class="card w-96 bg-base-100 shadow-xl">
-          <figure><img src="images/sanitation.webp" alt="Shoes" /></figure>
-          <div class="card-body">
-            <h2 class="card-title">Sanitation and Hygiene</h2>
-            <p>Sanitation and Hygiene</p>
+      <!--Enrolled courses-->
+      <div class = "enrolled-courses flex flex-col justify-items-start">
+        <h2 class = "text text-3xl">Enrolled courses</h2>
+        <div class = "card-holder flex space-x-20">
+          <!--Course 1 -->
+          <div class="card w-120 bg-base-200 shadow-xl m-20">
+            <div class="card-body">
+              <h2 class="card-title">Digital Literacy</h2>
+              <p>We live in a digital era and this course will teach you skills to live.</p>
+              <progress class="progress progress-green w-70" value="40" max="100"></progress>
+            </div>
           </div>
         </div>
-      </a>
+      </div>
+      <!-- Recommended courses -->
+      <div class = "recommended-courses flex flex-col justify-items-start">
+        <h2 class = "text text-3xl">Recommended courses</h2>
+        <!-- Card holder -->
+        <div class = "card-holder flex items-center space-x-20">
+          <!-- Couse 1 -->
+          <a href ="Courses/Digital Literacy/main.html"  class=" w-96">
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure><img src="images/digital.png"/></figure>
+              <div class="card-body">
+                <h2 class="card-title">DIGITAL LITERACY</h2>
+                <p>Digital literacy</p>
+              </div>
+            </div>
+          </a>
+
+          <!-- Course 2 -->
+          <a href = 'Courses/Sanitation/main.html' class=" w-96">
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure><img src="images/sanitation.webp" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Sanitation and Hygiene</h2>
+                <p>Sanitation and Hygiene</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
   
       <!-- Page content finished -->
