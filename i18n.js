@@ -1,3 +1,5 @@
+const i18n = require('electron-i18n')
+
 const path = require("path")
 const electron = require('electron')
 const fs = require('fs');
