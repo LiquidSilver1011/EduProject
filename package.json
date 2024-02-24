@@ -20,6 +20,7 @@
     "@heroicons/react": "^2.1.1",
     "daisyui": "^4.6.0",
     "electron-i18n": "^1.3136.0",
-    "react-scripts": "^3.0.1"
+    "i18next": "^23.10.0",
+    "react-scripts": "^5.0.1"
   }
 }
