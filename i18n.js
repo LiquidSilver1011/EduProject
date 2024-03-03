@@ -1,26 +1,33 @@
-const i18n = require('electron-i18n')
-
-const path = require("path")
-const electron = require('electron')
-const fs = require('fs');
-let loadedLanguage;
-let app = electron.app ? electron.app : electron.remote.app
-
-module.exports = i18n;
-
-function i18n() {
-    if(fs.existsSync(path.join(__dirname, app.getLocale() + '.js'))) {
-         loadedLanguage = JSON.parse(fs.readFileSync(path.join(__dirname, app.getLocale() + '.js'), 'utf8'))
-    }
-    else {
-         loadedLanguage = JSON.parse(fs.readFileSync(path.join(__dirname, 'en.js'), 'utf8'))
-    }
-}
-
-i18n.prototype.__ = function(phrase) {
-    let translation = loadedLanguage[phrase]
-    if(translation === undefined) {
-         translation = phrase
-    }
-    return translation
+// The active locale
+const locale = "ar";
+// We can have as many locales here as we want,
+// and use any locales we want. We have English
+// and Arabic as locales here as examples.
+const translations = {
+  // English translations
+  "en": {
+    "app-title": "Hi",
+    "lead": " user",
+    "asdf": "hey"
+  },
+  // Arabic translations
+  "ar": {
+    "app-title": "تطبيقي المطبق",
+    "lead": "أهلاً بك في مكاني الصغير على النت.",
+  },
+};
+// When the page content is ready...
+document.addEventListener("DOMContentLoaded", () => {
+  document
+    // Find all elements that have the key attribute
+    .querySelectorAll("[data-i18n-key]")
+    .forEach(translateElement);
+});
+// Replace the inner text of the given HTML element
+// with the translation in the active locale,
+// corresponding to the element's data-i18n-key
+function translateElement(element) {
+  const key = element.getAttribute("data-i18n-key");
+  const translation = translations[locale][key];
+  element.innerText = translation;
 }
