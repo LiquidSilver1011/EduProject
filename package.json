@@ -19,6 +19,10 @@
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
     "daisyui": "^4.6.0",
+    "electron-i18n": "^1.3136.0",
+    "glob": "^10.3.10",
+    "i18next": "^23.10.0",
+    "i18next-electron-language-detector": "^0.0.10",
     "react-scripts": "^5.0.1"
   }
 }
