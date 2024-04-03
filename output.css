@@ -1955,6 +1955,10 @@ details.collapse summary::-webkit-details-marker {
   margin: 5rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -1980,6 +1984,16 @@ details.collapse summary::-webkit-details-marker {
   margin-bottom: 1.25rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mb-auto {
   margin-bottom: auto;
 }
@@ -1998,6 +2012,18 @@ details.collapse summary::-webkit-details-marker {
 
 .mt-2\.5 {
   margin-top: 0.625rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .box-content {
@@ -2088,6 +2114,10 @@ details.collapse summary::-webkit-details-marker {
   width: 6rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .min-w-max {
   min-width: -moz-max-content;
   min-width: max-content;
@@ -2158,6 +2188,10 @@ details.collapse summary::-webkit-details-marker {
   padding: 1rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -2185,6 +2219,16 @@ details.collapse summary::-webkit-details-marker {
 
 .text-xl {
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
