@@ -1964,6 +1964,10 @@ details.collapse summary::-webkit-details-marker {
   width: 24rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .min-w-max {
   min-width: -moz-max-content;
   min-width: max-content;
