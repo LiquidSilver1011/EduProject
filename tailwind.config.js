@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./home.html", "./explore.html", "./Courses/Sanitation/main.html","./Courses/Digital Literacy/main.html", "./settings.html","./Courses/Digital Literacy/Digital Literacy Videos/WhatIsAComputerVideo.html", "./Courses/Digital Literacy/Digital Literacy Videos/WhatIsAComputerPractice.html"],
+  content: ["./home.html", "./explore.html", "./Courses/Sanitation/main.html","./Courses/Digital Literacy/main.html", "./settings.html","./Courses/Digital Literacy/Digital Literacy Videos/WhatIsAComputerVideo.html", "./Courses/Digital Literacy/Digital Literacy Practice/WhatIsAComputerPractice.html"],
   theme: {
     extend: {},
   },
