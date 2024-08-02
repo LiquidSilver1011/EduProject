@@ -25,3 +25,13 @@ Run `npm install`
 
 5. Anytime you want to pull changes that others made and aren't updated on your local repository, run:
 `git pull origin main`
+
+
+Using this app:
+
+node.js and npm will be needed to be installed. 
+These can be downloaded here: https://nodejs.org/en/download/package-manager
+
+To run this code use "npm start". 
+
+This should create a new window 
