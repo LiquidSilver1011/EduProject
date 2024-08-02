@@ -27,11 +27,3 @@ Run `npm install`
 `git pull origin main`
 
 
-Using this app:
-
-node.js and npm will be needed to be installed. 
-These can be downloaded here: https://nodejs.org/en/download/package-manager
-
-To run this code use "npm start". 
-
-This should create a new window 
